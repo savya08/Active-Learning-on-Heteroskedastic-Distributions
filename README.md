@@ -3,12 +3,12 @@ An implementation for the paper **Understanding and Improving Neural Active Lear
 
 The proposed active learning pipeline seeks to facilitate machine learning under the presence of heteroskedastic noise by filtering out the noisy data samples from the pool of unlabelled data and selecting the most informative samples for training the model. To this end, our algorithm leverages the change in a model's state (loss and later-layer feature representations) to choose a diverse set of clean and challenging training samples from the unlabelled data pool. Further, we propose a simple fine-tuning mechanism that uses high-confidence samples in the unlabelled data pool to further improve feature learning and boost the model's performance.
 
-![teaser](https://github.com/heteroskedastic-dist/Active-Learning-on-Heteroskedastic-Distributions/blob/main/teaser.png?raw=true)
+![teaser](https://github.com/savya08/Active-Learning-on-Heteroskedastic-Distributions/blob/main/teaser.png)
 
 This repository experiments with 3 synthetic noise settings - *noisy-blank*, *noisy-diverse*, and *noisy-class*. In each case, a large number of noisy examples are mixed with the clean examples in the unlabelled data pool.
 
 <p align="center">
-  <img src="https://github.com/heteroskedastic-dist/Active-Learning-on-Heteroskedastic-Distributions/blob/main/noise.png?raw=true" width="750">
+  <img src="https://github.com/savya08/Active-Learning-on-Heteroskedastic-Distributions/blob/main/noise.png" width="750">
 </p>
 
 
